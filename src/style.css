@@ -1,0 +1,81 @@
+html {
+	scroll-behavior: smooth;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+@media screen and (min-width: 601px) {
+	div.example {
+		font-size: 80px;
+	}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+	div.example {
+		font-size: 30px;
+	}
+}
+
+.Link {
+	text-decoration: none;
+	color: #fff !important;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.CardLink {
+	text-decoration: none;
+}
+
+/* social */
+
+.social a {
+	position: fixed;
+	bottom: 0;
+	height: 30px;
+	color: #fff;
+	width: 2rem;
+	border-radius: 10px 10px 0px 0px;
+	padding: 0.5rem;
+	text-align: right;
+	transition: 0.3s;
+}
+
+.shv:hover {
+	height: 40px;
+}
+
+.mail {
+	right: 2rem;
+	background-color: #0077b5;
+}
+
+.whatsapp {
+	right: 4.5rem;
+	background-color: #25d366;
+}
+.facebook {
+	right: 7rem;
+	background-color: #3b5998;
+}
+.instagram {
+	right: 9.5rem;
+	background-color: #e95950;
+}
+
+/* maps */
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 500px;
+	width: 1080px;
+}
+.mapouter {
+	position: relative;
+	text-align: center;
+	height: 500px;
+	width: 100%;
+}
